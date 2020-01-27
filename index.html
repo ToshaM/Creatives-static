@@ -6,6 +6,7 @@
     <script src="https://kit.fontawesome.com/868382dc86.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/rkh1sgr.css">
+    <!-- <link rel="stylesheet" href="style/index.css"> -->
     <link rel="stylesheet" href="build/style/index.css">
   </head>
   <body>
@@ -252,17 +253,18 @@
       <section class="contact_area">
         <span class="big_letter">C</span><h3>We’d love to hear about your project.</h3>
         <form class="contact_form
-        " action="get">
+        " action="post" id="contact_form">
           <input type="text" name="name" placeholder="Name" class="form_input input-name"/>
           <input type="email" name="email" placeholder="Email" class="form_input input-email"/>
           <input type="tel" name="phone" placeholder="Phone" class="form_input input-phone"/>
           <p>
-            <textarea class="form_input-textarea" rows="3" placeholder="Message"></textarea>
+            <textarea class="form_input-textarea" rows="3" placeholder="Message" id="message"></textarea>
           </p>
           <input type="submit" value="submit" class="input-submit">
         </form>
 
         <img class="contact_area_map" src="assets/contact-area/map.jpg" alt="map">
+        <iframe class="contact_area_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.5004926966976!2d37.53526371623056!3d55.74980748055259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54bdc191c196f%3A0x59707d763d601738!2z0JzQvtGB0LrQstCwLdCh0LjRgtC4!5e0!3m2!1sru!2s!4v1580141166836!5m2!1sru!2s" width="1600" height="332" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
       </section>
     </main>
@@ -273,5 +275,6 @@
             <li><img src="assets/main-image/main-logo/footer-logo.png" alt="icon-footer" class="icon_footer"></p></li>
         </ul>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
